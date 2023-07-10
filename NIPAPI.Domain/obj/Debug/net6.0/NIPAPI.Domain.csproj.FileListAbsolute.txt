@@ -1,0 +1,12 @@
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\bin\Debug\net6.0\NIPAPI.Domain.deps.json
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\bin\Debug\net6.0\NIPAPI.Domain.dll
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\bin\Debug\net6.0\NIPAPI.Domain.pdb
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\obj\Debug\net6.0\NIPAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\obj\Debug\net6.0\NIPAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\obj\Debug\net6.0\NIPAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\obj\Debug\net6.0\NIPAPI.Domain.AssemblyInfo.cs
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\obj\Debug\net6.0\NIPAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\obj\Debug\net6.0\NIPAPI.Domain.dll
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\obj\Debug\net6.0\refint\NIPAPI.Domain.dll
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\obj\Debug\net6.0\NIPAPI.Domain.pdb
+C:\Users\Decagon\source\repos\NIPApi\NIPAPI.Domain\obj\Debug\net6.0\ref\NIPAPI.Domain.dll
