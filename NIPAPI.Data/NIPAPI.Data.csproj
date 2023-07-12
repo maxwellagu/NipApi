@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NIPAPI.Application\NIPAPI.Application.csproj" />
-    <ProjectReference Include="..\NIPAPI.Domain\NIPAPI.Domain.csproj" />
   </ItemGroup>
 
 </Project>

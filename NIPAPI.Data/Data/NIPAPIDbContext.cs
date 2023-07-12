@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NIPAPI.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace NIPAPI.Data.Data
 {
     public class NIPAPIDbContext : DbContext
     {
-        public NIPAPIDbContext(DbContextOptions<NIPAPIDbContext> options) : base(options)
+        public NIPAPIDbContext(DbContextOptions options) : base(options)
         {
 
         }

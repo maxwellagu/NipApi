@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Domain\\NIPAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Domain\\NIPAPI.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -85,9 +89,6 @@
             "projectReferences": {
               "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Application\\NIPAPI.Application.csproj": {
                 "projectPath": "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Application\\NIPAPI.Application.csproj"
-              },
-              "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Domain\\NIPAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Domain\\NIPAPI.Domain.csproj"
               }
             }
           }

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "NIPAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NIPAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NIPAPI.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NIPAPI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../NIPAPI.Domain/NIPAPI.Domain.csproj",
+      "msbuildProject": "../NIPAPI.Domain/NIPAPI.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "NIPAPI.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Decagon\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Domain\\NIPAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Domain\\NIPAPI.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

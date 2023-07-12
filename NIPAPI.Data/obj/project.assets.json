@@ -783,6 +783,9 @@
       "NIPAPI.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NIPAPI.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/NIPAPI.Application.dll": {}
         },
@@ -2035,8 +2038,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
-      "NIPAPI.Application >= 1.0.0",
-      "NIPAPI.Domain >= 1.0.0"
+      "NIPAPI.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2068,9 +2070,6 @@
           "projectReferences": {
             "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Application\\NIPAPI.Application.csproj": {
               "projectPath": "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Application\\NIPAPI.Application.csproj"
-            },
-            "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Domain\\NIPAPI.Domain.csproj": {
-              "projectPath": "C:\\Users\\Decagon\\source\\repos\\NIPApi\\NIPAPI.Domain\\NIPAPI.Domain.csproj"
             }
           }
         }
