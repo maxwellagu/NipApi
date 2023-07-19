@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NIPAPI.Domain
+namespace NIPAPI.Domain.Model
 {
     public class Course
     {

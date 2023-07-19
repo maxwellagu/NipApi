@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NIPAPI.Domain;
+using NIPAPI.Domain.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NIPAPI.Data.Data;
-using NIPAPI.Domain;
+using NIPAPI.Domain.Model;
 
 namespace NIPApi.Controllers
 {
