@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NIPAPI.Application.DTO.Course
+namespace NIPAPI.Application.DTO.Registration
 {
-    public class CreateCourseDTO: BaseCourseDTO
+    public class RegistrationDTO: BaseRegistrationDTO
     {
+        public int Id { get; set; }
         
     }
 }

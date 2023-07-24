@@ -1,4 +1,6 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using NIPApi.Configuration;
 using NIPAPI.Application.Interfaces;
 using NIPAPI.Data.Data;
 using NIPAPI.Data.Repository;
@@ -19,6 +21,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<IRegistrationRepository, RegistrationRepository>();
+
+builder.Services.AddAutoMapper(typeof(MapperConfig));
 
 var app = builder.Build();
 

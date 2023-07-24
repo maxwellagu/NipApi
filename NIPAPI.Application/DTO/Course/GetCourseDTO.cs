@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace NIPAPI.Application.DTO.Course
 {
-    public class CreateCourseDTO: BaseCourseDTO
+    public class GetCourseDTO: BaseCourseDTO
     {
+        public int id { get; set; }
         
     }
 }

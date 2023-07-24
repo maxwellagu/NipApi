@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NIPAPI.Data.Data;
@@ -11,9 +12,12 @@ namespace NIPApi.Controllers
     public class CoursesController : ControllerBase
     {
         private readonly NIPAPIDbContext _context;
-        public CoursesController(NIPAPIDbContext context) 
+        private readonly IMapper _mapper;
+
+        public CoursesController(NIPAPIDbContext context, IMapper mapper) 
         {
             _context = context;
+            _mapper = mapper;
         }
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Course>>> GetCourses()

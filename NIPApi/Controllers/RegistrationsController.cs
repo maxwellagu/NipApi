@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NIPAPI.Data.Data;
@@ -10,10 +11,12 @@ namespace NIPApi.Controllers
     public class RegistrationsController : ControllerBase
     {
         private readonly NIPAPIDbContext _context;
+        private readonly IMapper _mapper;
 
-        public RegistrationsController(NIPAPIDbContext context)
+        public RegistrationsController(NIPAPIDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpGet]
